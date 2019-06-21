@@ -2,13 +2,15 @@
 ### Author's page : https://cv.snu.ac.kr/research/VDSR/
 
 ## How to use
-for train,
+Train command
 > python train.py --batchsize 'NUMBER' --epoch 'NUMBER' --train 'RELATIVE PATH TO TRAIN DATA' --valid 'RELATIVE PATH TO VALID DATA' --expansion 'EXPANSION OF DATA'
 
 for example,
 > python train.py --batchsize 4 --epoch 1000 --train ./TrainData --valid ./TestData --expansion png
 
-for test,
+***
+
+Test command
 > python test.py --test 'RELATIVE PATH TO TEST DATA' --network 'NETWORK NAME' --expansion 'EXPANSION OF TEST DATA'
 
 for example,
