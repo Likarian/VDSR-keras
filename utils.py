@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from keras.callbacks import CSVLogger
 import tensorflow as tf
 from keras import backend as K
